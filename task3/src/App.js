@@ -5,10 +5,16 @@ import Joke from './Joke';
 function App() {
   return (
     <div className="App">
+      <div className="title">
+        <h3>Joke</h3>  
+        <img src="https://i.pinimg.com/originals/ed/94/76/ed9476f050cee4b6a87a4c20d2f2858f.png" alt="joke"/>    
+      </div>
+      <div className="div">  
       <Joke
         question="What runs but never walks?"
         punchLine="Water!"
       ></Joke>
+      </div>
       <Joke
         question="What does a ghost order at an Italian restaurant?"
         punchLine="Spooketi."
